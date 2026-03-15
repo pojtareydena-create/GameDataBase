@@ -210,7 +210,16 @@
       .hero-content{padding-bottom:44px}
       .hero-logo{width:52px;height:52px}
     }
+
+    /* AdSense */
+    .ad-banner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 12px 24px 0;
+    }
+    .ad-banner ins { border-radius: 8px; overflow: hidden; }
   </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3437766077855713" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -240,6 +249,17 @@
 </div>
 
 <div id="app">
+
+  <!-- AdSense banner между навигацией и контентом -->
+  <div class="ad-banner">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3437766077855713"
+         data-ad-slot="auto"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 <div id="page-minecraft" class="page" style="display:none">
   <section class="hero">
     <div class="hero-bg">
